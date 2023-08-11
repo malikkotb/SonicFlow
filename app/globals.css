@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-gradient {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(84, 11, 120, 1) 51%);
+}
+
+.carousel-inner {
+  display: flex;
+  animation: carousel-animate 8s linear infinite;
+}
+
+@keyframes carousel-animate {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-200%);
+  }
+}
