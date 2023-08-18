@@ -1,7 +1,6 @@
-import MusicPlayer from "@/components/MusicPlayer";
 import Sidebar from "@/components/Sidebar";
 import TopBar from "@/components/TopBar";
-import TrendingAlbums from "@/components/TrendingAlbums";
+import Tracks from "@/components/Tracks";
 
 export default function Home() {
   return (
@@ -11,8 +10,7 @@ export default function Home() {
         <div className="w-full">
           <TopBar />
           <div className="p-8 flex gap-4">
-            <MusicPlayer />
-            <TrendingAlbums />
+            <Tracks />
           </div>
         </div>
       </div>
