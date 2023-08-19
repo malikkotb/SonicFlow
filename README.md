@@ -1,3 +1,10 @@
+# SonicFlow. Lightweigth Spotify Clone. Built with NextJS, Tailwindcss, and HowlerJS
+
+
+https://github.com/malikkotb/SonicFlow/assets/50169361/b6cebdb1-a9ee-45fc-ba6f-3ef3acd80d26
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
